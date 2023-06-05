@@ -1,0 +1,15 @@
+.idea
+.classpath
+.project
+*.iml
+target/
+.DS_Store
+.gitattributes
+.github
+logs
+log
+mvnw
+mvnw.cmd
+.mvn
+.jar
+
