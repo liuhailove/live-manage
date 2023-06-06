@@ -1,4 +1,4 @@
-package com.lm.livemanage.controller;
+package com.lm.livemanage;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

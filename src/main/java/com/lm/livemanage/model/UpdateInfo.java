@@ -5,22 +5,19 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.io.Serializable;
-
 /**
- * 每秒记录数
+ * 更新信息
  *
  * @author honggang.liu
  */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class RecordPerSec implements Serializable {
+public class UpdateInfo extends EventCommonInfo {
+
     /**
-     * unix秒
+     * 组统计
      */
-    @JsonProperty("unix_sec")
-    private long unixSec;
-    @JsonProperty("v")
-    private int v;
+    @JsonProperty("groups")
+    private StatGroup []groups;
 }
